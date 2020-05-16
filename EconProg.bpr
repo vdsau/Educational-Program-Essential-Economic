@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="EconProg.exe"/>
+    <OBJFILES value="EconProg.obj main_code.obj _help_form.obj _exit_form.obj _fixed_assets.obj 
+      _theory_form.obj _settings_form.obj works\4\main_code4.obj 
+      works\4\classes4.obj _human_form.obj cls.obj works\1\main.obj 
+      works\10\_performance_form.obj _firm_form.obj results_form.obj 
+      works\9\middle_performance_form.obj works\5\new_tech_form.obj 
+      works\5\clas.obj works\5\helpa.obj works\11\_salary_form.obj 
+      works\11\_salary_classes.obj works\8\_product_quality_form.obj 
+      works\8\_product_quality_classes.obj works\3\_fixed_assets_form.obj 
+      works\3\_fixed_assets_classes.obj works\7\_manufactoring_form.obj 
+      works\2\_working_form.obj works\2\_working_form_classes.obj 
+      works\6\_rotating_form.obj works\6\_rotating_form_classes.obj 
+      _user_guide_form.obj"/>
+    <RESFILES value="EconProg.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main_code.dfm _help_form.dfm _exit_form.dfm _fixed_assets.dfm 
+      _theory_form.dfm _settings_form.dfm works\4\main_code4.dfm _human_form.dfm 
+      works\1\main.dfm works\10\_performance_form.dfm _firm_form.dfm 
+      results_form.dfm works\9\middle_performance_form.dfm 
+      works\5\new_tech_form.dfm works\5\helpa.dfm works\11\_salary_form.dfm 
+      works\8\_product_quality_form.dfm works\3\_fixed_assets_form.dfm 
+      works\7\_manufactoring_form.dfm works\2\_working_form.dfm 
+      works\6\_rotating_form.dfm _user_guide_form.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;works\4;works\4;works\1;works\10;works\9;works\5;works\5;works\5;works\11;works\11;works\8;works\8;works\3;works\3;works\7;works\2;works\2;works\6;works\6"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="EconProg.cpp"/>
+    <INCLUDEPATH value="works\6;works\2;works\7;works\3;works\8;works\11;works\5;works\9;works\10;works\1;Подпрограммы\1;works\4;$(BCB)\Projects;..\..\..\Учёба\Учёба(ч.4)\Экономика\Иканомека;$(BCB)\Projects\Экономика;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="works\6;works\2;works\7;works\3;works\8;works\11;works\5;works\9;works\10;works\1;Подпрограммы\1;works\4;$(BCB)\Projects;..\..\..\Учёба\Учёба(ч.4)\Экономика\Иканомека;$(BCB)\Projects\Экономика;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Iworks\6 -Iworks\2 -Iworks\7 -Iworks\3 -Iworks\8 -Iworks\11 -Iworks\5 
+      -Iworks\9 -Iworks\10 -Iworks\1 -IПодпрограммы\1 -Iworks\4 
+      -I$(BCB)\Projects -I..\..\..\Учёба\Учёба(ч.4)\Экономика\Иканомека 
+      -I$(BCB)\Projects\Экономика -I$(BCB)\include -I$(BCB)\include\vcl 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="EconProg.res" FORMNAME="" UNITNAME="EconProg.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EconProg.cpp" FORMNAME="" UNITNAME="EconProg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main_code.cpp" FORMNAME="main_form" UNITNAME="main_code" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_help_form.cpp" FORMNAME="help_form" UNITNAME="_help_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_exit_form.cpp" FORMNAME="exit_form" UNITNAME="_exit_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_fixed_assets.cpp" FORMNAME="fixed_assets" UNITNAME="_fixed_assets" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_theory_form.cpp" FORMNAME="theory_form" UNITNAME="_theory_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_settings_form.cpp" FORMNAME="settings" UNITNAME="_settings_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\4\main_code4.cpp" FORMNAME="econ4_form" UNITNAME="main_code4" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\4\classes4.cpp" FORMNAME="" UNITNAME="classes4" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_human_form.cpp" FORMNAME="human_form" UNITNAME="_human_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cls.cpp" FORMNAME="" UNITNAME="cls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\1\main.cpp" FORMNAME="act" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\10\_performance_form.cpp" FORMNAME="performance_work" UNITNAME="_performance_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_firm_form.cpp" FORMNAME="firm_form" UNITNAME="_firm_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="results_form.cpp" FORMNAME="result_form" UNITNAME="results_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\9\middle_performance_form.cpp" FORMNAME="middle_performance" UNITNAME="middle_performance_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\5\new_tech_form.cpp" FORMNAME="new_tech" UNITNAME="new_tech_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\5\clas.cpp" FORMNAME="" UNITNAME="clas" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\5\helpa.cpp" FORMNAME="Help" UNITNAME="helpa" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\11\_salary_form.cpp" FORMNAME="salary_form" UNITNAME="_salary_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\11\_salary_classes.cpp" FORMNAME="" UNITNAME="_salary_classes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\8\_product_quality_form.cpp" FORMNAME="product_quality" UNITNAME="_product_quality_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\8\_product_quality_classes.cpp" FORMNAME="" UNITNAME="_product_quality_classes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\3\_fixed_assets_form.cpp" FORMNAME="fixed_assets_form" UNITNAME="_fixed_assets_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\3\_fixed_assets_classes.cpp" FORMNAME="" UNITNAME="_fixed_assets_classes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\7\_manufactoring_form.cpp" FORMNAME="manufactoring_form" UNITNAME="_manufactoring_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\2\_working_form.cpp" FORMNAME="working_form" UNITNAME="_working_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\2\_working_form_classes.cpp" FORMNAME="" UNITNAME="_working_form_classes.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\6\_rotating_form.cpp" FORMNAME="rotating_form" UNITNAME="_rotating_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="works\6\_rotating_form_classes.cpp" FORMNAME="" UNITNAME="_rotating_form_classes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="_user_guide_form.cpp" FORMNAME="user_guide_form" UNITNAME="_user_guide_form" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+d:\temp\programs\builder\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
